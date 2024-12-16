@@ -1,0 +1,13 @@
+name = "Scavenge Timing Addon"
+filename = "Scavenge-Timing-1.12.2-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ceea75b57d9e891641856f17c1ccb946cbae5c2a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3292055
+project-id = 382079

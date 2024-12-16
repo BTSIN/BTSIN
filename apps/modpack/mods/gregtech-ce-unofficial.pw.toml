@@ -1,0 +1,13 @@
+name = "GregTech CE Unofficial"
+filename = "gregtech-1.12.2-2.8.10-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tULldUx4/versions/vaQ5bJYU/gregtech-1.12.2-2.8.10-beta.jar"
+hash-format = "sha512"
+hash = "6967fa8300456adff4541286c41a1993c4637e906b86316170646e41433dd8522771147bb41c9f5d439aa6f77dec9f94a3d092636d635ff52942ce9812752634"
+
+[update]
+[update.modrinth]
+mod-id = "tULldUx4"
+version = "vaQ5bJYU"

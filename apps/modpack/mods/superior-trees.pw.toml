@@ -1,0 +1,13 @@
+name = "Superior Trees"
+filename = "Superior Trees-1.12.2-0.13.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/w32Dtfa4/versions/phl1rSDV/Superior%20Trees-1.12.2-0.13.2.jar"
+hash-format = "sha512"
+hash = "81ec364d5a185ac0071e6a7ec27039a355e59a7db064e9b9e15618c8d2cd7bad98f0ecf516ef8b8092ff661b24b30251ab7ad70791878c22c3a96424744cb211"
+
+[update]
+[update.modrinth]
+mod-id = "w32Dtfa4"
+version = "phl1rSDV"

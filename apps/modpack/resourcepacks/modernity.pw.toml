@@ -1,0 +1,13 @@
+name = "Modernity"
+filename = "Modernity-f3-3.10.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rx58ZUPu/versions/qn52HWf6/Modernity-f3-3.10.2.zip"
+hash-format = "sha512"
+hash = "a277b17437de4b79acd750e3b2fb63ae24c22da2b285e9b6fca9bb299611b9e96926d5609620480e7a68939b34e8286021f407c46db8d723600a191dd7f138be"
+
+[update]
+[update.modrinth]
+mod-id = "rx58ZUPu"
+version = "qn52HWf6"

@@ -1,0 +1,17 @@
+{
+  "packName": "Beyond The Singularity",
+  "packId": "btsin",
+  "version": "1.0.0",
+  "debug": false,
+  "loaders": {
+    "classes": [
+      "classes/singletons"
+    ],
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ]
+  }
+}

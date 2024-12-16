@@ -1,0 +1,13 @@
+name = "JAFFA Foods (A HarvestCraft Addon)"
+filename = "JAFFA-7.63.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57670ab9f3c02f22bd608dd9d4ba2544aabfad3a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2830763
+project-id = 232717

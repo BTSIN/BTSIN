@@ -1,0 +1,13 @@
+name = "Forced Resourcepacks"
+filename = "forcedresourcepacks-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c6fdf0314f326732406c04e094e95d96b2ec7a2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5241646
+project-id = 997732

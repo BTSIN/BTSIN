@@ -1,0 +1,31 @@
+{
+  "dimensions": [
+    {
+      "dim": 1001,
+      "biome": "biometweaker:dust_plains",
+      "dimensiontype": {
+        "id": 1001,
+        "name": "Dust Planet",
+        "suffix": "_dim1001",
+        "keeploaded": false
+      },
+      "worldinfo_onetime": {
+        "MapFeatures": 0,
+        "generatorName": "customized",
+        "generatorOptions": "{\"useCaves\":false,\"useDungeons\":false,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useRavines\":false,\"useWaterLakes\":false,\"useLavaLakes\":false,\"useLavaOceans\":false,\"dirtSize\":0,\"dirtCount\":0,\"dirtMinHeight\":0,\"dirtMaxHeight\":0,\"gravelSize\":0,\"gravelCount\":0,\"gravelMinHeight\":0,\"gravelMaxHeight\":0,\"graniteSize\":0,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":0,\"dioriteSize\":0,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":0,\"andesiteSize\":0,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":0}"
+      },
+      "jed": {
+        "CanSpawnHostiles": false,
+        "CanSpawnPeacefulMobs": false,
+        "CloudHeight": 0
+      }
+    },
+    {
+      "dim": 0,
+      "worldinfo_onetime": {
+        "MapFeatures": 0,
+        "generatorOptions": "{\"useCaves\":false,\"useDungeons\":false,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useRavines\":false,\"useWaterLakes\":false,\"useLavaLakes\":false,\"useLavaOceans\":false,\"dirtSize\":0,\"dirtCount\":0,\"dirtMinHeight\":0,\"dirtMaxHeight\":0,\"gravelSize\":0,\"gravelCount\":0,\"gravelMinHeight\":0,\"gravelMaxHeight\":0,\"graniteSize\":0,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":0,\"dioriteSize\":0,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":0,\"andesiteSize\":0,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":0}"
+      }
+    }
+  ]
+}

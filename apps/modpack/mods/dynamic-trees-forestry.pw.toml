@@ -1,0 +1,13 @@
+name = "Dynamic Trees - Forestry"
+filename = "DynamicTreesForestry-1.12.2-1.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87a79b2a22b1aaf8442b8438267947da24fe0abf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3261440
+project-id = 401558

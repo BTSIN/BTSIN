@@ -1,0 +1,13 @@
+name = "SimpleDifficulty for Underdog"
+filename = "SimpleDifficulty-1.12.2-0.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a89dff9ad283882229d6bba49a4754c064976d8a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4651150
+project-id = 574162

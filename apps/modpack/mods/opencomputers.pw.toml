@@ -1,0 +1,13 @@
+name = "OpenComputers"
+filename = "OpenComputers-MC1.12.2-1.8.6+cd8851e.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YiAbZis2/versions/N0aanZno/OpenComputers-MC1.12.2-1.8.6%2Bcd8851e.jar"
+hash-format = "sha512"
+hash = "e19fa2c37f1920466c96e174a0de640d1ae86e0101491b015094cc13c08c5062aa45b985d07d14598b351f25535eede156351d08299906c50ea4b623ea70639e"
+
+[update]
+[update.modrinth]
+mod-id = "YiAbZis2"
+version = "N0aanZno"

@@ -1,0 +1,13 @@
+name = "MixinBooter"
+filename = "!mixinbooter-10.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/G1ckZuWK/versions/Lud8BYGp/%21mixinbooter-10.2.jar"
+hash-format = "sha512"
+hash = "bfa9f05b1c74e62030ddef688dd8f7381f91a0b1be7c2db25cab92cf880f1fd6324892fc0459459b648e76356d3aa893f7c0d415850064c0097b649a753b158f"
+
+[update]
+[update.modrinth]
+mod-id = "G1ckZuWK"
+version = "Lud8BYGp"

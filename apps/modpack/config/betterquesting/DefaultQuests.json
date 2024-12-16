@@ -1,0 +1,945 @@
+{
+  "build:8": "4.2.2",
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§lWelcome to Beyond the Singularity!\n§r\nFirst of all, prepare to suffer (or not, maybe you like it!) as this is one of the most complex and difficult modpacks you are going to find, there is no handholding, there\u0027s even no option to change the difficulty.\n\nYour goal is to find what lies §lbeyond the singularity§r but first you need the singularity, so, good luck with that!\n\nAnd here is my final piece of advice for you, the quests have a formatting to help you, check it:\n\n§e§lThis is a warning, read all the warnings, as they are important!\n\n§b§o§bThis is a tutorial, tutorials teach you things that are hard to discover by yourself just using JEI.\n\n§cThis explains a bug and how you can avoid it.\n\n§aThis is a hint, hints are hints you know what a hint is.\n\n§e§lModpack still W.I.P, so expect bugs to happen, I can\u0027t garantee you that your current world will work in the future, since we are in Alpha, if you want to play on the same world from start to finish, without worries, please wait for Beta.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:quest_book"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The Beginning",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": 10,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "betterquesting:quest_book"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Now that you know what you are getting into, lets get started.\n\nFirst, you are going to need some tools before anything since your hands can only break the soil and other soft materials.\n\nCraft a crude axe, pickaxe and shovel.\n\n§aYou can find the stones everywhere on the ground, sticks drop from leaves and the plant fibers drop from grass.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "pyrotech:crude_axe"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Crude Tools",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:strange_tuber"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:crude_axe"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:crude_pickaxe"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:crude_shovel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "2:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Now that you got some tools, its time to start chopping down trees in order to get wood.\n\n§bAfter you chop down a tree you need to combine one of the logs with your axe on the crafting grid to get a chopping block, it will let you craft wooden boards, the first material that you will need in order to create a worktable.\n\nBut you can\u0027t just cut a log with its bark, before the chop chop begins you must first debark your logs, you can simply do that by placing the log on the ground and right-click it with a axe on your hand.\n\nOnce you have your chopping block, you can place a debarked log on it with right-click, then take your axe and right-click on it again until the log gets turned into a board.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "pyrotech:chopping_block"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Chop Chop!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": "",
+              "id:8": "pyrotech:material"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "pyrotech:material"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "logWood",
+              "id:8": "minecraft:log"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:chopping_block"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "board",
+              "id:8": "btsin_core:board_oak"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "3:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "If you already don\u0027t know, there are no monsters or magic in the world, and it will stay that way forever §oif §ryou don\u0027t want to venture into the magical side of the modpack. If thats the case, you can just play at night and not worry at all, and to be honest it will take some time before you can even summon magical powers into your world, so you have a little bit of freedom at the start, you don\u0027t need to hide into a small hole. Here, take some torches so you can see something in the dark during the first nights.\n\nYou have to light them up tho.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:clock"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Your first night",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 3,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:torch_fiber"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "4:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Ah, you might be thinking you are in the verge of living the average \"hardcore\" modpack experience where you can\u0027t 100m without starting to decay into a hungry corpse, but thats not the case! Sure, spice of life is included, and sure, it does have the usual mechanics that most are familiar with, but it was tweaked to provide you with a fair gameplay.\n\nSo, to summarize for the veterans, and to explain for the newcomers, you can\u0027t eat the same food forever, that would be bad for you, and after some time the same food will give zero saturation if you try to eat it again and again, but the food now lasts longer, and each time you eat something new you gain progress towards a forever maximum health increase.\n\nBut be warned that you can\u0027t just live off bread forever!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "harvestcraft:steakandchipsitem"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Food is not enough for me",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 4,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "5:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You should have noticed by now that there is a thirst bar above the hunger one, and you might be questioning yourself how that works.\n\nThirst is just like hunger, but instead of eating food you need to drink. And unlike food, you can drink just water for the rest of your life without worrying about it.\n\nBut, you need a reliable source of water, you can\u0027t just drink water from the ocean, its going to make you even more thirsty. The best early game solution is to find a river to drink from.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:potion",
+            "tag:10": {
+              "Potion:8": "minecraft:water"
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Why so thirsty?",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 5,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "6:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Yes! Grass! You heard that right, this quest is here to make sure you understand that fiber is a precious early game resource, it\u0027s everywhere, but it\u0027s not dried. You first want to get a good enough amount of fiber, dried ones too.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 12,
+            "OreDict:8": "",
+            "id:8": "pyrotech:material"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Grassy Matters",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 6,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": "",
+              "id:8": "pyrotech:material"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "pyrotech:material"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 12,
+              "OreDict:8": "",
+              "id:8": "pyrotech:material"
+            },
+            "1:10": {
+              "Count:3": 16,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "pyrotech:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "7:10": {
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Now that you have many boards you can start wokring on new tools, the first one is a worktable, and you will need a hammer too if you want the worktable to be useful at all.\n\nKeep in mind that this will be your main method to craft things for a while.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "pyrotech:worktable"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Primitiveless Tech",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 7,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:worktable"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:crude_hammer"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "8:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "BTSIN was made with exploration in mind, you will need to walk around to find many things, from resources to ancient structures, and you can\u0027t get around it, exploration is a core feature that will be further §oexplored§o§r later. For now, I will give you some hints related to exploration, and about BTSIN in general.\n\n§aFind a place near a river where you can settle, you need water to live, you also will need water for crafting and feeding your machines later on.\n\nTry to not settle on harsh environments such as too cold or too hot biomes, temperature is easier to mantain that way.\n\nAnimals are going to be a huge requirement, sooner or later you will want to have some animals to progress on the quests, so go around and find some animals that you can tame later.\n\nDon\u0027t try to cross the ocean swimming, it will take so much time that you might even die of hunger before arriving.\n\n\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "biomesoplenty:earth"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Around the world, around the world...",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 8,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "9:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Well, you should\u0027ve noticed the temperature sphere above your hotbar, it is a very important feature in BTSIN, as you can see on the sphere, it represents how cold/hot you currently are (not the place you are, but YOUR temperature). Always check your current temperature since extreme conditions make you vulnerable, decreasing your maximum health and giving other debuffs, might even kill you if not managed.\n\nHow to manage it? Stay away from extreme climate, don\u0027t live on cold or hot biomes, try to find a place where the climate ins\u0027t to harsh.\n\nAlso, if you don\u0027t have many options, water can cool you down on hot biomes, but it will only make you colder on cold biomes.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "simpledifficulty:thermometer"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The right temperature",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 9,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "10:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "BTSIN, as I said before, is a expert pack, might even be the most hard one you will find, things take time to do, you will need to stay strong during your playtime, take a treat so you can play a bit more without starting to worry about hunger and thirst! (get something to eat and drink IRL, you better be full and hydrated when playing my modpack!!!)",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "jaffa:doritos"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Atleast you are prepared",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 10,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "jaffa:doritos"
+            }
+          }
+        },
+        "1:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "jaffa:cocacola"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "jaffa:pepsi"
+            }
+          },
+          "index:3": 1,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "11:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You should take care to not take too long before you have a house and some plants prepared for winter, because the winter is coming, and if you are not prepared it will be a bad experience for you.\n\nThe four seasons are present in BTSIN, and aside from the environmental changes (snow, dry vegetation, etc) there are crops that only can grow on certain seasons, if you don\u0027t plant anything before the winter you might encounter yourself in a situation where you need resources that you can\u0027t get.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:snowball"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Seasons that are serene",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 11,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "12:10": {
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You know what to do, right?\n\nIsn\u0027t fire supposed to be humanity\u0027s first big thing?\n\nAnyways, you need to start a fire, §obut wait don\u0027t ignite all the vegetation around you!§r I\u0027m talking about a campfire, that will be useful to maintain you warm. It will also be used to cook food, but don\u0027t forge your food in the fire for too long or you will get charcoal instead of crunchy potatoes.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "pyrotech:campfire"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Let be fire",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 12,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "13:10": {
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 13,
+      "rewards:9": {},
+      "tasks:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "lineID:3": 0,
+      "order:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§o§r§r§r§o§r§o§lYou wake up...\n\n§r§oWho are you?\nWhy are you here?\nHow did you get here?\nAnd what place is it?\nWhy don\u0027t you remember anything?\n\nTakes you just a second to realize that you have no memories, you know many things, you are a human, and you know that you are a special human, you just don\u0027t have memories. But you have many things on your head, you feel like you know everything, you know how the materials relate, you know how §n§n§l§r§o§lto do anything§r §oyou want, you know how to create and operete complex machines that you never seen before. This skill of yours seens to be almost magical, but the information is too big to understand all at once, but as you face this problem, the solution reveals itself! You can search what you want, using the same language that you use in your mind, search for the words that compose the names of the things you want to create, and your mind will show you how.\n\n§lThese sounds around you...\n\n§r§oAre strange, eerie to some extent, you can hear the nature around you, as if you were part of it, and you know you are. but why are you part of it?\n\nYou feel the ground, you feel the air, you feel the wind blowing on you, hearing your footsteps relax you, this entire experience is relaxing, you feel like you just needed it, you are full with inspiration, full of motivation, you want to create more, explore, and find the answers to your questions...",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "pyrotech:campfire"
+          },
+          "name:8": "Primitive Era",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 0,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -24,
+          "y:3": -24
+        },
+        "1:10": {
+          "id:3": 1,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 72,
+          "y:3": -24
+        },
+        "2:10": {
+          "id:3": 2,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 168,
+          "y:3": -24
+        },
+        "3:10": {
+          "id:3": 3,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -48
+        },
+        "4:10": {
+          "id:3": 4,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 12
+        },
+        "5:10": {
+          "id:3": 5,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": 36
+        },
+        "6:10": {
+          "id:3": 6,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": -72
+        },
+        "7:10": {
+          "id:3": 7,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 228,
+          "y:3": -24
+        },
+        "8:10": {
+          "id:3": 8,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 36
+        },
+        "9:10": {
+          "id:3": 9,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": 12
+        },
+        "10:10": {
+          "id:3": 10,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -72
+        },
+        "11:10": {
+          "id:3": 11,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -48
+        },
+        "12:10": {
+          "id:3": 12,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 288,
+          "y:3": -24
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 1,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": "",
+            "id:8": "minecraft:bed"
+          },
+          "name:8": "Dream Furniture",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "2:10": {
+      "lineID:3": 2,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "cookingforblockheads:cutting_board"
+          },
+          "name:8": "Master Chef",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 13,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -24,
+          "y:3": -24
+        }
+      }
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_anchor_x:5": 0.5,
+      "home_anchor_y:5": 0.0,
+      "home_image:8": "btsin:textures/gui/bqu.png",
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0,
+      "livesdef:3": 3,
+      "livesmax:3": 10,
+      "pack_name:8": "Beyond The Singularity",
+      "pack_version:3": 0,
+      "party_enable:1": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Collision Damage"
+filename = "CollisionDamage-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Beuf2Hfh/versions/77CPkUTK/CollisionDamage-1.2.2.jar"
+hash-format = "sha512"
+hash = "2d697c8d624ffea2488222577fa681a8f5050c547bf44328c5e4c3220e1cabcc396ca98649c6fe7f205e097b149df9132c2b25a4e53199b76e7c3f5ea8d0c7fe"
+
+[update]
+[update.modrinth]
+mod-id = "Beuf2Hfh"
+version = "77CPkUTK"

@@ -1,0 +1,13 @@
+name = "Cherished Worlds"
+filename = "cherishedworlds-1.12.2-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3azQ6p0W/versions/NKPlBLC1/cherishedworlds-1.12.2-1.0.1.jar"
+hash-format = "sha512"
+hash = "01341422c98731787adedf8a4f38f73ffdcb9d15d6d0077e72c5c7423a7826b8561446a14b93f5da53bdd59f4e150f0c645e80eff1ee6f954d49351abf49193d"
+
+[update]
+[update.modrinth]
+mod-id = "3azQ6p0W"
+version = "NKPlBLC1"

@@ -1,0 +1,13 @@
+name = "Beyond the Singularity"
+author = "ZotyDev"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "367c1f4ecd8f904ede82572bed7592da08075d1dc15e409e7c5665f12518097a"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"

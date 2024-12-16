@@ -1,0 +1,13 @@
+name = "Universal Tweaks"
+filename = "UniversalTweaks-1.12.2-1.13.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s32LssQX/versions/Pb7ELn6C/UniversalTweaks-1.12.2-1.13.0.jar"
+hash-format = "sha512"
+hash = "16f596a00ffbca9c6934d17e312611706dfe98d14b19462e9d6774e7d38bf69f3492d59658e657f5cee6616402c64c32fd357fce099267d99ee5218b44981bab"
+
+[update]
+[update.modrinth]
+mod-id = "s32LssQX"
+version = "Pb7ELn6C"

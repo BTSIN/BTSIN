@@ -1,0 +1,13 @@
+name = "GroovyScript"
+filename = "groovyscript-1.2.0-hotfix1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GJaDRTrb/versions/Slez34pS/groovyscript-1.2.0-hotfix1.jar"
+hash-format = "sha512"
+hash = "12f06102743c296bb8555be2a73f8d4da19e01ce98cdcc9a3c5772c2761ddcced790adcbbb4e64c3f3ea62caef0dcc80dfc1b0412e29573f826c897d1400d31a"
+
+[update]
+[update.modrinth]
+mod-id = "GJaDRTrb"
+version = "Slez34pS"

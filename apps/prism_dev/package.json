@@ -1,0 +1,10 @@
+{
+  "name": "@btsin/prism_dev",
+  "scripts": {
+    "prepare": "node -e \"require('fs').mkdirSync('../../build', { recursive: true })\"",
+    "build": "bestzip ../../build/btsin_dev.zip src/*"
+  },
+  "devDependencies": {
+    "bestzip": "^2.2.1"
+  }
+}

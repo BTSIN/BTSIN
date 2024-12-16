@@ -1,0 +1,125 @@
+{
+  "block_pools": [
+    {
+      "name": "Dust Scavenge",
+      "type": {
+        "type": "block",
+        "name": "exnihilocreatio:block_dust"
+      },
+      "clickType": "right",
+      "properties": [
+        {
+          "type": "require_sneak"
+        },
+        {
+          "type": "require_empty_hand"
+        },
+        {
+          "type": "player_cooldown",
+          "time": "10"
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "consume_block",
+          "chance": "5.0",
+          "name": "minecraft:air"
+        },
+        {
+          "type": "spawn_particles",
+          "name": "explode",
+          "amount": "10",
+          "speed": "0.05"
+        },
+        {
+          "type": "play_sound",
+          "name": "minecraft:block.sand.step",
+          "category": "block",
+          "volume": "0.8",
+          "pitch": "2.0"
+        }
+      ],
+      "drops": [
+        {
+          "name": "pyrotech:material",
+          "meta": "32",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:rock",
+          "meta": "7",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:rock",
+          "meta": "0",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:rock",
+          "meta": "1",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:rock",
+          "meta": "2",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:rock",
+          "meta": "3",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:rock",
+          "meta": "4",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:material",
+          "meta": "6",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:material",
+          "meta": "10",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:material",
+          "meta": "11",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "pyrotech:material",
+          "meta": "17",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "gregtech:meta_dust_tiny",
+          "meta": "51",
+          "amount": "1",
+          "chance": "1"
+        },
+        {
+          "name": "gregtech:meta_dust_tiny",
+          "meta": "25",
+          "amount": "1",
+          "chance": "1"
+        }
+      ]
+    }
+  ]
+}

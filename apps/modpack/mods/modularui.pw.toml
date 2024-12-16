@@ -1,0 +1,13 @@
+name = "ModularUI"
+filename = "modularui-2.4.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ecvd12QC/versions/CscJAJSo/modularui-2.4.3.jar"
+hash-format = "sha512"
+hash = "2e5b7ae73c9278a98c61d57cec6d8a934f313aa3a06a3b473d3db991814bfedbf5d69530f785d45bc83c976b7423bc1fe25e02a8cbca701f5fd0d9baf99f2a99"
+
+[update]
+[update.modrinth]
+mod-id = "Ecvd12QC"
+version = "CscJAJSo"

@@ -1,0 +1,13 @@
+name = "Better Invisibility"
+filename = "betterinvisibility-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b9f05079a96ccfc1cd54d3f13aed82ba89ee1567"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2980414
+project-id = 300639

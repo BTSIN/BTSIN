@@ -1,0 +1,13 @@
+name = "Modern Pyrotech"
+filename = "Modern Pyrotech [1.12] [v1.2].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7a9b07835fa9ef168c4742dbf7e3af62767778b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3080904
+project-id = 412981

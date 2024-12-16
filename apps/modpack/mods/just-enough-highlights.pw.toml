@@ -1,0 +1,13 @@
+name = "Just Enough Highlights"
+filename = "jehighlights-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2cf35924159cf2c981389aa7e4bffd76859cf179"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5779635
+project-id = 1044877

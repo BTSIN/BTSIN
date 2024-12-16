@@ -1,0 +1,13 @@
+name = "AssetMover"
+filename = "assetmover-2.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/oTG4U7ur/versions/HTAl2d0c/assetmover-2.5.jar"
+hash-format = "sha512"
+hash = "71fb7a8336ceb389d0bd1ef8d43c028b2b7b856d06b692540d8c7d917fc550c84c8ec68382e397396112a35ea13d326b032ecb2cc1cc9068ddd229adf3ee4bfe"
+
+[update]
+[update.modrinth]
+mod-id = "oTG4U7ur"
+version = "HTAl2d0c"

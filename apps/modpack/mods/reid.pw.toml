@@ -1,0 +1,13 @@
+name = "Roughly Enough IDs"
+filename = "RoughlyEnoughIDs-2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sDhbZgv7/versions/ukwgE3i4/RoughlyEnoughIDs-2.2.1.jar"
+hash-format = "sha512"
+hash = "ce732a0d708fbc5ae24b1b6e83f8d1911822032acf2f59a47948b97ce79643045f5f224b1b4713569f4863b21949cf954ebf5c7de1812f5e27594ea75e33dc04"
+
+[update]
+[update.modrinth]
+mod-id = "sDhbZgv7"
+version = "ukwgE3i4"

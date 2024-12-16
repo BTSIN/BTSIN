@@ -1,0 +1,16 @@
+{
+  "name": "@btsin/monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build --continue",
+    "dev": "turbo run dev --continue",
+    "lint": "turbo run lint --continue",
+    "test": "turbo run test --continue",
+    "fix": "turbo run fix --continue"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

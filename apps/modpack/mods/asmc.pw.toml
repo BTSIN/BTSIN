@@ -1,0 +1,13 @@
+name = "ASMC"
+filename = "ASMC-1.12.2-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xc1brHiM/versions/FqIRS2is/ASMC-1.12.2-1.0.2.jar"
+hash-format = "sha512"
+hash = "bf550c1e9a3db2da3a2e04e3818f385f17bbd8d1ed19356d5cb70516c19fb60cbada8fef3f2112635392b5655735c22624c4aa1f6223e54200104553427f598f"
+
+[update]
+[update.modrinth]
+mod-id = "Xc1brHiM"
+version = "FqIRS2is"

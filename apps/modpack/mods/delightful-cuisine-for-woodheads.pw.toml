@@ -1,0 +1,13 @@
+name = "Delightful Cuisine for Woodheads"
+filename = "DelightfulCuisineForWoodheads_1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab9fcfea78108c67cf0e1c5bc95c12b1fe726d35"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4326433
+project-id = 805622

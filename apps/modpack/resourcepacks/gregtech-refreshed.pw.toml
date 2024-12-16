@@ -1,0 +1,13 @@
+name = "GregTech: Refreshed"
+filename = "GregTech Refreshed v0.7 [1.12].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZemCyvLM/versions/VkAoaulJ/GregTech%20Refreshed%20v0.7%20%5B1.12%5D.zip"
+hash-format = "sha512"
+hash = "65d6d717933e8594a3d2dee39781316df84a35f1c5cbfbd317938b5d98b1e746fef690dacea8e9c4e2ff8a179a0450532e6f4009f59b2d94f91e2290bba49961"
+
+[update]
+[update.modrinth]
+mod-id = "ZemCyvLM"
+version = "VkAoaulJ"

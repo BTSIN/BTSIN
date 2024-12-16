@@ -1,0 +1,13 @@
+name = "Oceanic Expanse"
+filename = "OceanicExpanse-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W81ZzfUo/versions/mHiZAgwv/OceanicExpanse-1.1.4.jar"
+hash-format = "sha512"
+hash = "680eafb01d2e45e9b8049eb654c6330d520fbf5cc8d1d1687d0e94356b3e9ea9c54479e03b43c519bc80213d1592c7722ad5e20043f78755d2d24053bfb24e80"
+
+[update]
+[update.modrinth]
+mod-id = "W81ZzfUo"
+version = "mHiZAgwv"

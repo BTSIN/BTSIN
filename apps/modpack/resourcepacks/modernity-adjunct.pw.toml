@@ -1,0 +1,13 @@
+name = "Modernity Adjunct"
+filename = "ModernityAdjunct-f3-1.5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pS9o7zup/versions/OGxvielo/ModernityAdjunct-f3-1.5.zip"
+hash-format = "sha512"
+hash = "613f690e125b0d3faff36bdb17030d2007c6ede6b16598fb9e61c4c7b91d1b9173309723041670bf59e15366f0fe417f6e3384cf5c96f22fc75665a6cd8e0b22"
+
+[update]
+[update.modrinth]
+mod-id = "pS9o7zup"
+version = "OGxvielo"

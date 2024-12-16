@@ -1,0 +1,8 @@
+{
+  "name": "@btsin/modpack",
+  "scripts": {
+    "prepare": "node -e \"require('fs').mkdirSync('../../build', { recursive: true })\"",
+    "build": "set LocalAppData=%LocalAppData% && packwiz --cache .cache --config .packwiz.toml modrinth export -o \"../../build/Beyond the Singularity.mrpack\" && packwiz --cache .cache --config .packwiz.toml curseforge export -o \"../../build/Beyond the Singularity.zip\"",
+    "dev": "set LocalAppData=%LocalAppData% && packwiz --cache .cache --config .packwiz.toml serve"
+  }
+}

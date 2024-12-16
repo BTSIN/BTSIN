@@ -1,0 +1,13 @@
+name = "VintageFix"
+filename = "vintagefix-0.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e6vNsbAm/versions/FyajaeIv/vintagefix-0.5.1.jar"
+hash-format = "sha512"
+hash = "8778757edc53b6cca3f66e24c253a3658f8b5519f4b60f9b139d1e0ef3d2e9c2b2cc3727116ae62251339aae663249edf918b1a48c5b7476499f5da990ef32f3"
+
+[update]
+[update.modrinth]
+mod-id = "e6vNsbAm"
+version = "FyajaeIv"
