@@ -1,0 +1,13 @@
+name = "World Stripper"
+filename = "World-Stripper-1.6.0-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3455b11f340529b5146140e8b217d459bc222b69"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2635454
+project-id = 250603

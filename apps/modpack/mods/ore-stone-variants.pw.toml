@@ -1,0 +1,13 @@
+name = "Ore Stone Variants"
+filename = "Ore Stone Variants-5.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "385f64505d1c43ae11e9f9087f08ef53b0a3df89"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3320887
+project-id = 287538

@@ -1,0 +1,13 @@
+name = "Red Core"
+filename = "!Red-Core-MC-1.7-1.12-0.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar"
+hash-format = "sha512"
+hash = "af65b6d31dbcd6acedc9d82b85b0536faf1355d58ecef9d9dbd4f04b231b8d5b00963390a6a69f13e69da44a052350fcdd3ecb885dbbb7f5d16e0193256c6b13"
+
+[update]
+[update.modrinth]
+mod-id = "iRzbJEus"
+version = "EgeSQe7e"

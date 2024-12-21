@@ -1,0 +1,13 @@
+name = "Even More Realistic Ore Veins"
+filename = "oreveins-1.12.2-2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "687f10af825583e59ed7a5e6befdd5aee554d20d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3937843
+project-id = 661560

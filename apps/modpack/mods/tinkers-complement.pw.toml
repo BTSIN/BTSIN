@@ -1,0 +1,13 @@
+name = "Tinkers' Complement"
+filename = "TinkersComplement-1.12.2-0.4.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jL4QSgdv/versions/V3NGn4uW/TinkersComplement-1.12.2-0.4.3.jar"
+hash-format = "sha512"
+hash = "e6615930eac1ede8d603a230679f7bfe516f720ab6fcbe433b94d5c35cb2d3e26ad0d998384273d8e709ef7c873f0c35cd90891cd37c56d6bb9c22090c3f133c"
+
+[update]
+[update.modrinth]
+mod-id = "jL4QSgdv"
+version = "V3NGn4uW"

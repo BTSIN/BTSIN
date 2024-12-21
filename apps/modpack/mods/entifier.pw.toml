@@ -1,0 +1,13 @@
+name = "Entifier"
+filename = "Entifier-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uVyed2La/versions/JUGPxabq/Entifier-2.0.0.jar"
+hash-format = "sha512"
+hash = "babf7952f099b1b5cb08a63c8fcccd6027c729411ac18d9e638986781bb5ce1e3383015a8aa423530add0a79e784c907a58c53dbcde0f0119f8d523434d37c62"
+
+[update]
+[update.modrinth]
+mod-id = "uVyed2La"
+version = "JUGPxabq"

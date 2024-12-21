@@ -1,0 +1,13 @@
+name = "Artisan Workstumps"
+filename = "artisanworkstumps-1.12.2-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4de29ae87d1814c5a7084de16e8b199f58fd6e32"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3205288
+project-id = 385407

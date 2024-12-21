@@ -1,0 +1,13 @@
+name = "Better Animals Plus Plus"
+filename = "betteranimalsplusplus-4-13-2022b.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2dd35b9ff6dd5d0abee7742b327af5703a6d95e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3749881
+project-id = 541068
