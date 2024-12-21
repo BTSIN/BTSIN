@@ -1,0 +1,14 @@
+{
+  "name": "@btsin/assets",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prepare": "ts-node ./src/scripts/copy-assets.ts"
+  },
+  "devDependencies": {
+    "@btsin/tsconfig": "workspace:*",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "ts-node": "^10.9.2"
+  }
+}

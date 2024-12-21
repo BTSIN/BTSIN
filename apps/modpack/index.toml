@@ -977,6 +977,10 @@ file = "config/BiomeTweakerCore/BiomeTweakerCore.cfg_20240603_140249.errored"
 hash = "b2db3a710116c8880f089dc73923e95298c190c3da538aa96b240572beaa12be"
 
 [[files]]
+file = "config/RTG/rtg.cfg"
+hash = "b8f9bd532f46ed95bbc2925201ec83bbf9299f00ef86f88179ec0921b4af0c62"
+
+[[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
 hash = "e6134ac325ab55e8d7b4e2e947cea668976c88a4dd64c7d5c7bc73b3ff1826de"
 
@@ -993,6 +997,14 @@ file = "config/Universal Tweaks - Tweaks.cfg"
 hash = "e04fb9c3bb08dda4113790dc8814383d61ab1fc799213c69516f44b7b1c688f6"
 
 [[files]]
+file = "config/advRocketry/advancedRocketry.cfg"
+hash = "4b7e377db1ab827f91d94e8f0da123a71d2e7104470924375dc164d7d496f368"
+
+[[files]]
+file = "config/advRocketry/planetDefs.xml"
+hash = "28f5265a1515019401fcdf8878a21ca459eee9404921ed624d437809929d732d"
+
+[[files]]
 file = "config/antiqueatlas/biome_textures.json"
 hash = "fc8921733f62e0d877e3cc1f718750ff218b8975ba7ad17fa8d6e9ebb65c5fb6"
 
@@ -1005,6 +1017,10 @@ file = "config/aquaacrobatics.cfg"
 hash = "0c6da4f11396805f94679e5b087b7fb00fb4e32424c9ec1089cd76878dc30fb1"
 
 [[files]]
+file = "config/betteranimalsplus.cfg"
+hash = "59743ab960fd4b2a5dd70b4f5798ecaf544f7ca7a30ad223095d07c4bd523850"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests.json"
 hash = "2388dc3bcaef9bf7b73288c525807750daf378e9d2dcf06d3918e4a739ba44b4"
 
@@ -1013,16 +1029,24 @@ file = "config/defaultworldgenerator-port/dust_planet/data/justenoughdimensions/
 hash = "cb3d7239eb4a7d2bc0bbd4adb5e032ffaa2869913b44dca3bc4ba125cc24dad7"
 
 [[files]]
-file = "config/defaultworldgenerator-port/dust_shaded.png"
-hash = "48c65e6abcf5c455cb06a1b1b4651f61ab7df373f8ec421acee8f00dfc0c1916"
-
-[[files]]
-file = "config/defaultworldgenerator-port/earth_shaded.png"
+file = "config/defaultworldgenerator-port/earth.png"
 hash = "fdfbde32d2d354a1cc44284c20270a73d2c89a0ecbae9c07924e5b385647e26a"
 
 [[files]]
+file = "config/defaultworldgenerator-port/luna.png"
+hash = "3470ad3ccce4243ee3cd16bb058711715864bafdf83fe03f390830a431e81dd4"
+
+[[files]]
+file = "config/defaultworldgenerator-port/mara_alpha.png"
+hash = "48c65e6abcf5c455cb06a1b1b4651f61ab7df373f8ec421acee8f00dfc0c1916"
+
+[[files]]
+file = "config/defaultworldgenerator-port/mars.png"
+hash = "5dc37110a67d3d19dece0d5aa86cc6877423cbc1b19bd92b71ed80fba96ec407"
+
+[[files]]
 file = "config/defaultworldgenerator-port/worldsettings.data"
-hash = "45b7467534975117e9c5f8e5446e389068a0848be127881c1587f14973ed6216"
+hash = "3093b440a68aa9b72d4e10eb42e38b69e6df03f7d0409dbb91b00e6c91cc1381"
 
 [[files]]
 file = "config/dynamictrees.cfg"
@@ -1034,7 +1058,7 @@ hash = "284bde279a8baf974b3493845198e6267e45c943f720788714feae345749921c"
 
 [[files]]
 file = "config/forcedresourcepacks.cfg"
-hash = "8007650fb867314ae4be449a38363fe705c35d668f7e0da715cee8abe1fa0a5d"
+hash = "a7a1fd724f9f8268b6d4e0e40f8e40768ae962e19338d3c512399617cfbd30cb"
 
 [[files]]
 file = "config/forestry/apiculture.cfg"
@@ -1079,6 +1103,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/gregtech/worldgen_extracted.json"
 hash = "6c66739cadefe6e73a1cb0c23fbda336670a9e52c5e35d00e23a4696d26b79ed"
+
+[[files]]
+file = "config/harvestcraft.cfg"
+hash = "fa786700edc5ea541c12fdb0bcb28fd1c7a3f67011ebc908810be2fe7a63105c"
 
 [[files]]
 file = "config/hungeroverhaul/HungeOverhaul.cfg"
@@ -1165,6 +1193,10 @@ file = "config/scavenge/dust.json"
 hash = "b6ef65707b6c63364a36499bfe3c78d738a4af8a5919db485abe8ef49009add0"
 
 [[files]]
+file = "groovy/assets/advancedrocketry/textures/planets/earth.png"
+hash = "f737bd9eacdb39eeff4c795e364bc0f6733680cc5377cf3c2f79eb218cee2fea"
+
+[[files]]
 file = "groovy/assets/btsin/lang/en_us.lang"
 hash = "77dbf5a3a773fa246e7159a33c56556699d11b90ba82549073c4344673eaaf5b"
 
@@ -1193,6 +1225,11 @@ file = "groovy/runConfig.json"
 hash = "06f79e32487b646ea55605083ce7c50db61000ffdee7ef00d8abb377e39e9d98"
 
 [[files]]
+file = "mods/advanced-rocketry-2.pw.toml"
+hash = "937e0ffab3b40045e95f8f4190082c70fb607cccfaccf794be784e7a11246385"
+metafile = true
+
+[[files]]
 file = "mods/ae2-extended-life.pw.toml"
 hash = "b0db116adb0cfd8b765ca88d24db5adfa562259252a34d5446fb63b11c52ea17"
 metafile = true
@@ -1205,6 +1242,11 @@ metafile = true
 [[files]]
 file = "mods/ai-reducer.pw.toml"
 hash = "7e2b92b486e5a6fed10f470e6c222dea72a12edd19e75aba12f293133187574b"
+metafile = true
+
+[[files]]
+file = "mods/ambient-environment.pw.toml"
+hash = "26342989456a03553fa98ad78bc5892be395579fb5b22b38b6bf75900df0b47c"
 metafile = true
 
 [[files]]
@@ -1235,6 +1277,11 @@ metafile = true
 [[files]]
 file = "mods/aqua-acrobatics.pw.toml"
 hash = "a4cd331969ff23c1c7fe42c126c41541f407c9f5aa71613cfbe2bea6a269f80f"
+metafile = true
+
+[[files]]
+file = "mods/arlib.pw.toml"
+hash = "6f3cd79eb43142203ba21deb183b39a1e8532a8c6e87ab7cb4ff607adfb8a2ea"
 metafile = true
 
 [[files]]
@@ -1483,11 +1530,6 @@ hash = "d3c1ea159d88e1d2273f4784642eb389c3903735f41f112b3f18415a6bba19fc"
 metafile = true
 
 [[files]]
-file = "mods/geolosys.pw.toml"
-hash = "3dd2605f3ac2e516e99c86da32d8c2071cff7de450b12922dd050c39b5f2721a"
-metafile = true
-
-[[files]]
 file = "mods/gregtech-ce-unofficial.pw.toml"
 hash = "bc1f20938e727a5251d5c5bd314233afa1801cff7e226286cea13d18b4cd41af"
 metafile = true
@@ -1505,6 +1547,11 @@ metafile = true
 [[files]]
 file = "mods/hunger-overhaul.pw.toml"
 hash = "09d102ad13f281a53037bf661868272a66468ed3f190453648ef77f3665d67f0"
+metafile = true
+
+[[files]]
+file = "mods/immersive-combat.pw.toml"
+hash = "b6a647517fd46ceab3bb818b3b2c8506e19ecdc30fd32a17ffe233fda8af4460"
 metafile = true
 
 [[files]]
@@ -1530,6 +1577,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-bogosorter.pw.toml"
 hash = "b7532fe9d4a35602f10cd10ead62932e293f6f291b376ec8115da8c1d09c0305"
+metafile = true
+
+[[files]]
+file = "mods/item-borders.pw.toml"
+hash = "634fdd89d4acf2ee1702f8eed0e5c088691850297366a3762ce548a16a55799f"
 metafile = true
 
 [[files]]
@@ -1578,8 +1630,8 @@ hash = "8b600f17c9d8857ea79a88b45c0105a811859f9e6aa0cc7b4982edb9133c3d02"
 metafile = true
 
 [[files]]
-file = "mods/leather-works.pw.toml"
-hash = "53798a797f5e6ebe9497a9fd430e45b6ec84f34924c32e561571d7a8f1cf6d3d"
+file = "mods/legendary-tooltips.pw.toml"
+hash = "dd60f27d4924379d5d8f9ad7587cd3967d2916d1ff48328dd8e7cd5cb033370b"
 metafile = true
 
 [[files]]
@@ -1595,6 +1647,16 @@ metafile = true
 [[files]]
 file = "mods/lolasm.pw.toml"
 hash = "d2c61d32b03991d8aa5538fa36e99e84b4932bfacd25df098e74af26af949e41"
+metafile = true
+
+[[files]]
+file = "mods/malisiscore.pw.toml"
+hash = "30c772d502232b689f11c6cb4740238a4db1e656a21291c307a08f346ca1bd6c"
+metafile = true
+
+[[files]]
+file = "mods/malisisdoors.pw.toml"
+hash = "186416dfcddfb41fe0ecd15bfafc67aec937c36e5dbac496386c9a480d2eb294"
 metafile = true
 
 [[files]]
@@ -1625,6 +1687,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks-unofficial.pw.toml"
 hash = "97afad43aab051629f2e0dddcd0aa9909b94b616642a5c5cd0ab1754e8cf9c9e"
+metafile = true
+
+[[files]]
+file = "mods/nimble.pw.toml"
+hash = "7e5745016b0b0e16ca9c5bba9feeb98849f3961b69ec21ef7a8361dd4c2426ab"
 metafile = true
 
 [[files]]
@@ -1678,8 +1745,18 @@ hash = "a8fe077fcd4e3b3e93109ecf3e1207e14d21e13fdbc41daa2a285fce873e3d4f"
 metafile = true
 
 [[files]]
+file = "mods/proportional-destruction-particles.pw.toml"
+hash = "966e85ed90d2dee3d07dd1d0df87f5dbcb866ba2133a70776ee68f9d2538f941"
+metafile = true
+
+[[files]]
 file = "mods/pyrotech.pw.toml"
 hash = "9cb2f5b33142abe6c3eb9585b0693f828d287573353b2be7c6f1a67026462947"
+metafile = true
+
+[[files]]
+file = "mods/realistic-fire-spread.pw.toml"
+hash = "065f9f2a8552cf9da2526e4fec49893f5dbe2230de975ab8f8c9e8c6fa1f0f26"
 metafile = true
 
 [[files]]
@@ -1695,16 +1772,6 @@ metafile = true
 [[files]]
 file = "mods/reid.pw.toml"
 hash = "e40146f2a55a1efb40a18aae07f5cc40f17e5111feaf3231e15d740689e1fa47"
-metafile = true
-
-[[files]]
-file = "mods/reskillable-fork.pw.toml"
-hash = "5b2f51b0fc700a6900784b67926ddf5c8bf2be931af6b4a709415c261c78ddf3"
-metafile = true
-
-[[files]]
-file = "mods/rlfoliage.pw.toml"
-hash = "ad3a6d83cc7532cc15bedfa8c6d4f7da664772f44d929886c0ec35dc032cef47"
 metafile = true
 
 [[files]]
@@ -1755,6 +1822,11 @@ metafile = true
 [[files]]
 file = "mods/superior-trees.pw.toml"
 hash = "18e3781a80e17cdf1ebf083cf54b033a5afef25f5658c6cfd047b3354da4443b"
+metafile = true
+
+[[files]]
+file = "mods/thrown-slime.pw.toml"
+hash = "541edde7967c9b80c4caa46cd408e8a0392fb5bfd812af463b27177a3d15c24c"
 metafile = true
 
 [[files]]
@@ -1819,6 +1891,11 @@ hash = "b4fef2c78037095e350e2292ad7c22e839f765843e5b9850f7b86b4d9c543f40"
 [[files]]
 file = "resourcepacks/AntiqueAtlasExtra-v1.2.zip"
 hash = "9aa0521bdabe3e0c6488bf8ccf3ab754c43b14b3535691003bb2139d426d6655"
+
+[[files]]
+file = "resourcepacks/ar-pixelated.pw.toml"
+hash = "76c6ce925479298e268800fd573e9c6051d29a317e3d9f938dd2ccea266adc36"
+metafile = true
 
 [[files]]
 file = "resourcepacks/authentic-shadows.pw.toml"

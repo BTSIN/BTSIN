@@ -1,4 +1,4 @@
 .cache/
 .turbo/
 .gitignore
-.package.json
+package.json

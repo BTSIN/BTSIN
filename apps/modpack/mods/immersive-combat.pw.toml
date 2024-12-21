@@ -1,0 +1,13 @@
+name = "Immersive Combat (1.12 Better Combat)"
+filename = "ImmersiveCombat-9-27-2024.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "316ed515b8a999ca12ed5d074bed84eae398c56e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5761997
+project-id = 541058

@@ -1,0 +1,13 @@
+name = "Thrown Slime"
+filename = "thrownslime-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "24d5e90b72b29c0df845d54674a723950e30c995"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2670253
+project-id = 271966

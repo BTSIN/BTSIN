@@ -1,0 +1,13 @@
+name = "Advanced Rocketry Pixelated - AR16x16"
+filename = "AR-16x-v2.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef6affd5e5d17011b35c4e666d325731476a2123"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3524446
+project-id = 447846
