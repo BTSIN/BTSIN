@@ -77,6 +77,10 @@ file = "config/betteranimalsplus.cfg"
 hash = "59743ab960fd4b2a5dd70b4f5798ecaf544f7ca7a30ad223095d07c4bd523850"
 
 [[files]]
+file = "config/betterquesting.cfg"
+hash = "55ece2de3182f5dcab06edf4ab46e1bdb2de956a33f1f944f0eec2d6ef415000"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests.json"
 hash = "2388dc3bcaef9bf7b73288c525807750daf378e9d2dcf06d3918e4a739ba44b4"
 
@@ -519,6 +523,11 @@ hash = "b574d81bfb57d2d9013b7fc02cd0b5728a4cde7205430742003096ff261007cd"
 metafile = true
 
 [[files]]
+file = "mods/bqutweaker.pw.toml"
+hash = "f8f29931bda2f7105367891185020f608516f1780e78de28c348bf6e4a2c7f7a"
+metafile = true
+
+[[files]]
 file = "mods/btsin-core.pw.toml"
 hash = "1e46cda1d3d1f6592645500f1525a9bc7fa7df532ea62681c0e91a34b0cc2eb3"
 metafile = true
@@ -711,6 +720,11 @@ metafile = true
 [[files]]
 file = "mods/forgelin-continuous.pw.toml"
 hash = "f8e22c51b3a9c8f4503e46fdb654253442c3a436f2abf3129297b2c45cfbef25"
+metafile = true
+
+[[files]]
+file = "mods/fps-reducer.pw.toml"
+hash = "2571263ec4228ca6c6d2cdbf677bbb7b07622382163f606630304696ba5d4abc"
 metafile = true
 
 [[files]]

@@ -231,7 +231,7 @@
               "Count:3": 32,
               "Damage:2": 0,
               "OreDict:8": "board",
-              "id:8": "btsin_core:board_oak"
+              "id:8": "btsin_core:board"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -245,7 +245,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you already don\u0027t know, there are no monsters or magic in the world, and it will stay that way forever §oif §ryou don\u0027t want to venture into the magical side of the modpack. If thats the case, you can just play at night and not worry at all, and to be honest it will take some time before you can even summon magical powers into your world, so you have a little bit of freedom at the start, you don\u0027t need to hide into a small hole. Here, take some torches so you can see something in the dark during the first nights.\n\nYou have to light them up tho.",
+          "desc:8": "If you don\u0027t know already, there are no monsters or magic in the world, and it will stay that way forever §oif §ryou don\u0027t want to venture into the magical side of the modpack. If thats the case, you can just play at night and not worry at all, and to be honest it will take some time before you can even summon magical powers into your world, so you have a little bit of freedom at the start, you don\u0027t need to hide into a small hole. Here, take some torches so you can see something in the dark during the first nights.\n\nYou have to light them up tho.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
