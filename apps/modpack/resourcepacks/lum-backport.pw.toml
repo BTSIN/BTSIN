@@ -1,0 +1,13 @@
+name = "Lum (Backport)"
+filename = "Lum.1.12.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ec805b89fa42c42e3e08a58ab539b741f34699c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3334528
+project-id = 489807

@@ -1,0 +1,13 @@
+name = "Better Gendustry"
+filename = "Better Gendustry v1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3bd4af6f4ce2497d5c0ea1786e58711e9c015da0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3093664
+project-id = 415684

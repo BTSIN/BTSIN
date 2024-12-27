@@ -1,0 +1,13 @@
+name = "Illuminations Legacy 🔥"
+filename = "lumen-Beta 0.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf5042a3df6e92a0b8567e4325f729b02e4da336"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3105618
+project-id = 418423

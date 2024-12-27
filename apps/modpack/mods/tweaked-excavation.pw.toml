@@ -1,0 +1,13 @@
+name = "Tweaked Excavation"
+filename = "tweakedexcavation-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f61a5d8a9836fa50197ce7368e4eb0284de0d411"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5276772
+project-id = 687630

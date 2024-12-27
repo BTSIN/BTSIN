@@ -1,0 +1,13 @@
+name = "Winter Wonder Land"
+filename = "WinterWonderLand-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5d9ac2a1a0a3ac303ae26fef0a3a7651e01cda05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2468490
+project-id = 274799

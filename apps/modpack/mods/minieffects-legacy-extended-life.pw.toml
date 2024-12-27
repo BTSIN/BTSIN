@@ -1,0 +1,13 @@
+name = "MiniEffects-Legacy Extended Life"
+filename = "minieffects-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7b7b81fabf32eace350cdbf35d01c82a65fefea3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5955607
+project-id = 1081085

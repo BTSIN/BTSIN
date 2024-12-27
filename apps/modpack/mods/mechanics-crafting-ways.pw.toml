@@ -1,0 +1,13 @@
+name = "Mechanics - Crafting Ways"
+filename = "mechanics-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "82a42926e0468aa5a7eb55c27e676663a174f6b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2937303
+project-id = 323533

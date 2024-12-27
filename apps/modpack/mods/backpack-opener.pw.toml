@@ -1,0 +1,13 @@
+name = "Backpack Opener"
+filename = "bpopener-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a4ce57c53fc00430a63e0d077587b2a2ded6e852"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5955712
+project-id = 1147522
