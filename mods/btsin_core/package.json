@@ -1,0 +1,8 @@
+{
+  "name": "@btsin/mod-btsin_core",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "gradlew.bat build"
+  }
+}

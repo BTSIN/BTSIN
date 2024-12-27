@@ -519,6 +519,11 @@ hash = "b574d81bfb57d2d9013b7fc02cd0b5728a4cde7205430742003096ff261007cd"
 metafile = true
 
 [[files]]
+file = "mods/btsin-core.pw.toml"
+hash = "1e46cda1d3d1f6592645500f1525a9bc7fa7df532ea62681c0e91a34b0cc2eb3"
+metafile = true
+
+[[files]]
 file = "mods/bubbles-a-baubles-fork.pw.toml"
 hash = "51df92937d340019d09edadda6cec4d5aed9d15f437485eb84f3316735d37755"
 metafile = true

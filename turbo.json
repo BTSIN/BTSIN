@@ -4,7 +4,8 @@
     "prepare": {
       "cache": false,
       "outputs": [
-        "modpack/project1/config/defaultworldgenerator-port/*.png"
+        "mods/*/build/libs/**",
+        "apps/modpack/config/defaultworldgenerator-port/*.png"
       ]
     },
     "build": {

@@ -1,0 +1,13 @@
+name = "BTSIN Core"
+filename = "btsin_core-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c6ad03c04529a2dce2319367da3e95202096c44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6027631
+project-id = 1029813

@@ -1,0 +1,25 @@
+itemGroup.btsin_core=BTSIN: Core
+
+item.btsin_core.board.oak.name=Oak Board
+item.btsin_core.board.spruce.name=Spruce Board
+item.btsin_core.board.birch.name=Birch Board
+item.btsin_core.board.jungle.name=Jungle Board
+item.btsin_core.board.acacia.name=Acacia Board
+item.btsin_core.board.dark_oak.name=Dark Oak Board
+
+item.btsin_core.board.sacred_oak.name=Sacred Oak Board
+item.btsin_core.board.cherry.name=Cherry Board
+item.btsin_core.board.umbran.name=Umbran Board
+item.btsin_core.board.fir.name=Fir Board
+item.btsin_core.board.ethereal.name=Ethereal Board
+item.btsin_core.board.magic.name=Magic Board
+item.btsin_core.board.mangrove.name=Mangrove Board
+item.btsin_core.board.palm.name=Palm Board
+item.btsin_core.board.redwood.name=Redwood Board
+item.btsin_core.board.willow.name=Willow Board
+item.btsin_core.board.pine.name=Pine Board
+item.btsin_core.board.hellbark.name=Hellbark Board
+item.btsin_core.board.jacaranda.name=Jacaranda Board
+item.btsin_core.board.mahogany.name=Mahogany Board
+item.btsin_core.board.ebony.name=Ebony Board
+item.btsin_core.board.eucalyptus.name=Eucalyptus Board
