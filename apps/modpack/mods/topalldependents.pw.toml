@@ -1,0 +1,13 @@
+name = "TopAllDependents"
+filename = "TopAllDependents-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b49407c614236b1bbdfe2fbaefbc774b6142dc5b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5808089
+project-id = 1120632

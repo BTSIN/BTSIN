@@ -1,0 +1,13 @@
+name = "FermiumASM"
+filename = "fermiumasm-5.24.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "932d945e1b18a9720f72ec822862838e15d3df81"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5889652
+project-id = 971247

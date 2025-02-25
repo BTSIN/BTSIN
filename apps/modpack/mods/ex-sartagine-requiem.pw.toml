@@ -1,0 +1,13 @@
+name = "Ex Sartagine: Requiem"
+filename = "exsartagine-1.12.2-0.3.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30f1ee54379ac1cec173c02aec9ef81a9610f1cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4625454
+project-id = 428946
